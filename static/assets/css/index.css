@@ -8,7 +8,7 @@ a:hover { color: #cc0066; text-decoration: none; }
 
 ul { padding: 0; list-style: none; }
 
-.container { width: 1230px !important; }
+.container { width: 1200px !important; }
 
 .ov { overflow: hidden; }
 
@@ -60,23 +60,23 @@ ul { padding: 0; list-style: none; }
 
 /* 首页幻灯片 */
 .banner .slide .pic { width: 560px; height: 300px; background-color: #cc0066; }
-.banner .slide .list { width: 200px; }
-.banner .slide .list a { display: block; width: 200px; height: 60px; line-height: 20px; float: left; padding: 10px; font-weight: bold; opacity: 0.5; color: #ffffff; }
+.banner .slide .list { width: 190px; }
+.banner .slide .list a { display: block; width: 190px; height: 60px; line-height: 20px; float: left; padding: 10px; font-weight: bold; opacity: 0.5; color: #ffffff; }
 .banner .slide .list a:hover { opacity: 1; }
 .banner .slide .list .list-1 { margin-bottom: 20px; background-color: #ff9900; }
 .banner .slide .list .list-2 { margin-bottom: 20px; background-color: #009900; }
 .banner .slide .list .list-3 { margin-bottom: 20px; background-color: #006699; }
 .banner .slide .list .list-4 { background-color: #cc0066; }
-.banner .ads .top .ad { float: left; width: 170px; height: 130px; background-color: #dddddd; }
+.banner .ads .top .ad { width: 170px; height: 130px; background-color: #dddddd; }
 .banner .ads .down { margin-top: 30px; height: 140px; background-color: #dddddd; }
 
 .recommend .titleline { height: 40px; }
 .recommend .titleline span { font-size: 24px; margin: 0; display: inline-block; height: 40px; line-height: 36px; color: #222222; border-bottom: solid 2px #cc0066; }
-.recommend .lists { margin: 0 -20px; }
-.recommend .lists .list { padding: 0 20px; }
+.recommend .lists { margin: 0 -15px; }
+.recommend .lists .list { padding: 0 15px; }
 .recommend .lists .list .item { margin-top: 20px; }
 .recommend .lists .list .item .thumb { width: 160px; height: 120px; background-color: #dddddd; margin-right: 20px; }
-.recommend .lists .list .item .content { width: 193px; }
+.recommend .lists .list .item .content { width: 190px; }
 .recommend .lists .list .item .content h3 { margin: 0; height: 50px; font-size: 16px; line-height: 25px; }
 .recommend .lists .list .item .content p { margin: 10px 0; height: 50px; line-height: 25px; color: #999999; }
 
@@ -85,12 +85,12 @@ ul { padding: 0; list-style: none; }
 .hotnews .lists { margin-top: 20px; }
 .hotnews .lists .item { margin-top: 10px; }
 .hotnews .lists .item .thumb { width: 90px; height: 60px; background-color: #dddddd; margin-right: 20px; }
-.hotnews .lists .item .content { width: 262px; }
+.hotnews .lists .item .content { width: 260px; }
 .hotnews .lists .item .content h4 { margin: 0; height: 50px; font-size: 14px; line-height: 25px; }
 
 .star .titleline { height: 40px; }
 .star .titleline span { font-size: 24px; margin: 0; display: inline-block; height: 40px; line-height: 36px; color: #222222; border-bottom: solid 2px #cc0066; }
-.star .titleline .linklist { float: right; margin-top: 10px; margin-right: 5px; }
+.star .titleline .linklist { margin-top: 10px; margin-right: 5px; }
 .star .titleline .linklist a { display: inline-block; padding-left: 20px; }
 .star .item { height: 350px; background-color: #dddddd; position: relative; }
 .star .item .imgtitle { width: 210px; height: 60px; line-height: 25px; background-color: #ffffff; position: absolute; left: 28px; bottom: -30px; padding: 5px 15px; display: block; }
@@ -99,18 +99,22 @@ ul { padding: 0; list-style: none; }
 .star .list li { background: transparent url("../images/dot.png") no-repeat scroll 0 10px; padding-left: 12px; height: 24px; line-height: 24px; overflow: hidden; }
 
 .meitu .list { margin-top: 20px; }
+.meitu .list .item { width: 170px; height: 260px; border: solid 1px #ccc; position: relative; padding: 4px; }
+.meitu .list .item .image img { width: 160px; }
+.meitu .list .item .category { width: 160px; height: 30px; background-color: rgba(98, 98, 98, 0.8); position: absolute; top: 175px; z-index: 10; color: #ddd; line-height: 30px; }
+.meitu .list .item .category a { color: #eee; }
+.meitu .list .item .category a:hover { color: #fff; }
+.meitu .list .item .category span { display: block; font-size: 12px; text-align: center; height: 30px; }
+.meitu .list .item .category .date { width: 100px; padding-right: 6px; text-align: right; }
+.meitu .list .item .category .cat { width: 60px; background-color: #999; }
+.meitu .list .item .title { height: 52px; line-height: 20px; padding: 6px 0; }
+.meitu .list-big .item { width: 370px; }
+.meitu .list-big .item .image img { width: 360px; }
+.meitu .list-big .item .category { width: 360px; }
+.meitu .list-big .item .category .cat { width: 120px; }
 .meitu .titleline { height: 40px; }
 .meitu .titleline span { font-size: 24px; margin: 0; display: inline-block; height: 40px; line-height: 36px; color: #222222; border-bottom: solid 2px #cc0066; }
-.meitu .titleline .linklist { float: right; margin-top: 10px; margin-right: 5px; }
+.meitu .titleline .linklist { margin-top: 10px; margin-right: 5px; }
 .meitu .titleline .linklist a { display: inline-block; padding-left: 20px; }
-.meitu .item { width: 175px; height: 265px; border: solid 1px #ccc; position: relative; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
-.meitu .item .image img { width: 173px; -moz-border-radius: 5px 5px 0 0; -webkit-border-radius: 5px; border-radius: 5px 5px 0 0; }
-.meitu .item .category { width: 173px; height: 30px; background-color: rgba(98, 98, 98, 0.8); position: absolute; top: 180px; z-index: 10; color: #ddd; line-height: 30px; }
-.meitu .item .category a { color: #eee; }
-.meitu .item .category a:hover { color: #fff; }
-.meitu .item .category span { display: inline-block; font-size: 12px; text-align: center; height: 29px; }
-.meitu .item .category .date { padding-left: 10px; }
-.meitu .item .category .cat { width: 70px; background-color: #999; }
-.meitu .item .title { height: 55px; line-height: 20px; padding: 6px; }
 
 .common-ad { background-color: #dddddd; height: 90px; }
