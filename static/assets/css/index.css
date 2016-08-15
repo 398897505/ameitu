@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 公共 */
-body { font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: "Lantinghei SC","Lucida Grande", Helvetica,"Open Sans",Arial,"Microsoft YaHei",FreeSans,Arimo,"WenQuanYi Micro Hei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,sans-serif; }
 
 a { outline: 0 none !important; color: #333333; }
 
@@ -61,7 +61,7 @@ ul { padding: 0; list-style: none; }
 /* 首页幻灯片 */
 .banner .slide .pic { width: 560px; height: 300px; background-color: #cc0066; }
 .banner .slide .list { width: 190px; }
-.banner .slide .list a { display: block; width: 190px; height: 60px; line-height: 20px; float: left; padding: 10px; font-weight: bold; opacity: 0.5; color: #ffffff; }
+.banner .slide .list a { display: block; width: 190px; height: 60px; line-height: 20px; float: left; padding: 10px; font-weight: 600; opacity: 0.5; color: #ffffff; }
 .banner .slide .list a:hover { opacity: 1; }
 .banner .slide .list .list-1 { margin-bottom: 20px; background-color: #ff9900; }
 .banner .slide .list .list-2 { margin-bottom: 20px; background-color: #009900; }
