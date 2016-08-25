@@ -6,7 +6,7 @@ $color-title: #222222;
 
 /* 公共 */
 body {
-    font-family: "Lantinghei SC","Lucida Grande", Helvetica,"Open Sans",Arial,"Microsoft YaHei",FreeSans,Arimo,"WenQuanYi Micro Hei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,sans-serif;
+    font-family: "PingFang SC","Lantinghei SC","Lucida Grande",Arial,"\5FAE\8F6F\96C5\9ED1","Microsoft YaHei",FreeSans,"WenQuanYi Micro Hei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,sans-serif;
 }
 
 a {
@@ -45,8 +45,6 @@ ul {
 .col-25 {
     padding: 0 25px;
 }
-
-
 
 .hr-30, .hr-25, .hr-20, .hr-15, .hr-10, .hr-5  {
     clear: both;
@@ -93,7 +91,7 @@ ul {
     }
     .nav {
         font-size: 16px;
-        margin-left: 30px;
+        margin-left: 35px;
         a {
             color: #ddd;
         }
@@ -167,7 +165,18 @@ ul {
 
 /* 页尾 */
 .footer {
-    height: 120px;
+    margin-top:30px;
     width: 100%;
     background-color: #333;
+    .footert {
+        height: 140px;
+    }
+    .footerb {
+        height: 40px;
+        background-color: #222;
+        p {
+            line-height: 40px;
+            color:#bbb;
+        }
+    }
 }

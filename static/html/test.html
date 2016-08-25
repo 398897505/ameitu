@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta name="applicable-device" content="pc">
+    <meta name="Cache-Control" content="no-transform"/>
+    <meta name="Cache-Control" content="no-siteapp"/>
+
+    <title>首页</title>
+    <meta name="keywords" content="keywords">
+    <meta name="description" content="description">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link  rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdn.bootcss.com/placeholders/4.0.1/placeholders.min.js"></script>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<h1>中华人民共和国</h1>
+<p>中华人民共和国</p>
+<p>中华人123123,abc,ABC民共和国</p>
+<p>123123,abc,ABC</p>
+<script src="//cdn.bootcss.com/jquery/1.12.2/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#navbar > li').hover(function () {
+            $('#navbar > li').removeClass('active');
+            $('#navbar').find('.dropdown').hide();
+            $(this).addClass('active');
+            $(this).find('.dropdown').show();
+        });
+    });
+</script>
+</body>
+</html>

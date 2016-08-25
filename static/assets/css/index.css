@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 公共 */
-body { font-family: "Lantinghei SC","Lucida Grande", Helvetica,"Open Sans",Arial,"Microsoft YaHei",FreeSans,Arimo,"WenQuanYi Micro Hei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,sans-serif; }
+body { font-family: "PingFang SC","Lantinghei SC","Lucida Grande",Arial,"\5FAE\8F6F\96C5\9ED1","Microsoft YaHei",FreeSans,"WenQuanYi Micro Hei","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,sans-serif; }
 
 a { outline: 0 none !important; color: #333333; }
 
@@ -38,7 +38,7 @@ ul { padding: 0; list-style: none; }
 .header { margin-bottom: 30px; height: 60px; width: 100%; background-color: #333; }
 .header .logo { margin-top: 5px; width: 200px; height: 50px; background-color: #dddddd; }
 .header .logo h1 { margin: 0; padding: 0; text-indent: -99999px; }
-.header .nav { font-size: 16px; margin-left: 30px; }
+.header .nav { font-size: 16px; margin-left: 35px; }
 .header .nav a { color: #ddd; }
 .header .nava:hover { color: #fff; }
 .header .nav ul { margin: 0; }
@@ -54,11 +54,15 @@ ul { padding: 0; list-style: none; }
 .header .search .icon-search { color: #999; cursor: pointer; }
 
 /* 页尾 */
-.footer { height: 120px; width: 100%; background-color: #333; }
+.footer { margin-top: 30px; width: 100%; background-color: #333; }
+.footer .footert { height: 140px; }
+.footer .footerb { height: 40px; background-color: #222; }
+.footer .footerb p { line-height: 40px; color: #bbb; }
 
 .titleline { border-bottom: solid 2px #222222; }
 
 /* 首页幻灯片 */
+.banner { margin-bottom: 30px; }
 .banner .slide .pic { width: 560px; height: 300px; background-color: #cc0066; }
 .banner .slide .list { width: 190px; }
 .banner .slide .list a { display: block; width: 190px; height: 60px; line-height: 20px; float: left; padding: 10px; font-weight: 600; opacity: 0.5; color: #ffffff; }
@@ -70,6 +74,7 @@ ul { padding: 0; list-style: none; }
 .banner .ads .top .ad { width: 170px; height: 130px; background-color: #dddddd; }
 .banner .ads .down { margin-top: 30px; height: 140px; background-color: #dddddd; }
 
+/* 精选导读 */
 .recommend .titleline { height: 40px; }
 .recommend .titleline span { font-size: 24px; margin: 0; display: inline-block; height: 40px; line-height: 36px; color: #222222; border-bottom: solid 2px #cc0066; }
 .recommend .lists { margin: 0 -15px; }
@@ -80,6 +85,7 @@ ul { padding: 0; list-style: none; }
 .recommend .lists .list .item .content h3 { margin: 0; height: 50px; font-size: 16px; line-height: 25px; }
 .recommend .lists .list .item .content p { margin: 10px 0; height: 50px; line-height: 25px; color: #999999; }
 
+/* 热点推荐 */
 .hotnews .titleline { height: 30px; }
 .hotnews .titleline span { font-size: 18px; margin: 0; display: inline-block; height: 30px; line-height: 24px; color: #222222; border-bottom: solid 2px #cc0066; }
 .hotnews .lists { margin-top: 20px; }
@@ -88,24 +94,27 @@ ul { padding: 0; list-style: none; }
 .hotnews .lists .item .content { width: 260px; }
 .hotnews .lists .item .content h4 { margin: 0; height: 50px; font-size: 14px; line-height: 25px; }
 
+/* 女性 */
 .star .titleline { height: 40px; }
 .star .titleline span { font-size: 24px; margin: 0; display: inline-block; height: 40px; line-height: 36px; color: #222222; border-bottom: solid 2px #cc0066; }
 .star .titleline .linklist { margin-top: 10px; margin-right: 5px; }
 .star .titleline .linklist a { display: inline-block; padding-left: 20px; }
-.star .item { height: 350px; background-color: #dddddd; position: relative; }
-.star .item .imgtitle { width: 210px; height: 60px; line-height: 25px; background-color: #ffffff; position: absolute; left: 28px; bottom: -30px; padding: 5px 15px; display: block; }
-.star .list { margin-top: 40px; }
-.star .list ul { margin: 0; }
-.star .list li { background: transparent url("../images/dot.png") no-repeat scroll 0 10px; padding-left: 12px; height: 24px; line-height: 24px; overflow: hidden; }
+.star .cell { margin-top: 20px; }
+.star .cell .item { height: 360px; background-color: #dddddd; position: relative; }
+.star .cell .item .imgtitle { width: 210px; height: 60px; line-height: 25px; background-color: #ffffff; position: absolute; left: 28px; bottom: -30px; padding: 5px 15px; display: block; }
+.star .cell .list { margin-top: 40px; }
+.star .cell .list ul { margin: 0; }
+.star .cell .list li { background: transparent url("../images/dot.png") no-repeat scroll 0 10px; padding-left: 12px; height: 24px; line-height: 24px; overflow: hidden; }
 
+/* 美图 */
 .meitu .list { margin-top: 20px; }
 .meitu .list .item { width: 170px; height: 260px; border: solid 1px #ccc; position: relative; padding: 4px; }
 .meitu .list .item .image img { width: 160px; }
-.meitu .list .item .category { width: 160px; height: 30px; background-color: rgba(98, 98, 98, 0.8); position: absolute; top: 175px; z-index: 10; color: #ddd; line-height: 30px; }
+.meitu .list .item .category { width: 160px; height: 30px; background-color: #626262; filter: alpha(opacity=50); background-color: rgba(98, 98, 98, 0.5); position: absolute; top: 175px; z-index: 10; color: #ddd; line-height: 30px; }
 .meitu .list .item .category a { color: #eee; }
 .meitu .list .item .category a:hover { color: #fff; }
 .meitu .list .item .category span { display: block; font-size: 12px; text-align: center; height: 30px; }
-.meitu .list .item .category .date { width: 100px; padding-right: 6px; text-align: right; }
+.meitu .list .item .category .date { width: 100px; padding-right: 6px; text-align: right; position: relative; }
 .meitu .list .item .category .cat { width: 60px; background-color: #999; }
 .meitu .list .item .title { height: 52px; line-height: 20px; padding: 6px 0; }
 .meitu .list-big .item { width: 370px; }
@@ -117,4 +126,8 @@ ul { padding: 0; list-style: none; }
 .meitu .titleline .linklist { margin-top: 10px; margin-right: 5px; }
 .meitu .titleline .linklist a { display: inline-block; padding-left: 20px; }
 
-.common-ad { background-color: #dddddd; height: 90px; }
+.banner-ad { padding-top: 30px; padding-bottom: 25px; }
+.banner-ad .common-ad { background-color: #dddddd; height: 90px; }
+.banner-ad .common-ad-full { background-color: #dddddd; height: 90px; }
+
+/*# sourceMappingURL=index.css.map */
